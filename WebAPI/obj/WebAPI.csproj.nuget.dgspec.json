@@ -4,14 +4,14 @@
     "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\data\\data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\data\\data.csproj",
+        "projectName": "data",
+        "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\data\\data.csproj",
         "packagesPath": "C:\\Users\\marla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,7 +40,202 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj",
+        "projectName": "models",
+        "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj",
+        "packagesPath": "C:\\Users\\marla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\services\\services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\services\\services.csproj",
+        "projectName": "services",
+        "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\services\\services.csproj",
+        "packagesPath": "C:\\Users\\marla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\data\\data.csproj": {
+                "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\data\\data.csproj"
+              },
+              "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj": {
+                "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\marla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj": {
+                "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\models\\models.csproj"
+              },
+              "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\services\\services.csproj": {
+                "projectPath": "C:\\Users\\marla\\OneDrive\\Documents\\ElevenFiftyProjects\\codingFoundations\\projects\\AgileProject\\services\\services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
